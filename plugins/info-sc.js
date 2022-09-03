@@ -1,1 +1,202 @@
-const _0x2f3197=_0x3ae6;(function(_0x4a326d,_0x154c80){const _0x2a9abb=_0x3ae6,_0x3f2812=_0x4a326d();while(!![]){try{const _0x4b9f79=parseInt(_0x2a9abb(0x169))/0x1+-parseInt(_0x2a9abb(0x152))/0x2*(-parseInt(_0x2a9abb(0x164))/0x3)+parseInt(_0x2a9abb(0x16c))/0x4*(parseInt(_0x2a9abb(0x146))/0x5)+-parseInt(_0x2a9abb(0x162))/0x6+-parseInt(_0x2a9abb(0x139))/0x7+parseInt(_0x2a9abb(0x16e))/0x8*(parseInt(_0x2a9abb(0x16f))/0x9)+-parseInt(_0x2a9abb(0x15b))/0xa;if(_0x4b9f79===_0x154c80)break;else _0x3f2812['push'](_0x3f2812['shift']());}catch(_0x2931a5){_0x3f2812['push'](_0x3f2812['shift']());}}}(_0x19f9,0xa96af));let moment=require(_0x2f3197(0x160)),fs=require('fs'),handler=async(_0x56c3eb,{conn:_0x19817f,usedPrefix:_0x3cf516,__dirname:_0x5cae45,text:_0x1cb1a4,command:_0x28f63a})=>{const _0x10328f=_0x2f3197;let _0x436ce4=_0x19817f[_0x10328f(0x14f)](_0x56c3eb[_0x10328f(0x148)]),_0x413a5c=new Date(new Date()+0x36ee80),_0x5abca6='id',_0x5e807a=moment['tz'](_0x10328f(0x13a))[_0x10328f(0x138)](_0x10328f(0x140)),_0x305645=_0x413a5c[_0x10328f(0x14c)](_0x5abca6,{'weekday':'long'}),_0x5a1335=[_0x10328f(0x168),'Pon',_0x10328f(0x15a),'Kliwon',_0x10328f(0x16b)][Math[_0x10328f(0x16a)](_0x413a5c/0x50ae4c0)%0x5],_0x1864d2=_0x413a5c['toLocaleDateString'](_0x5abca6,{'day':_0x10328f(0x13f),'month':_0x10328f(0x14b),'year':_0x10328f(0x13f)}),_0x39c1f5=Intl[_0x10328f(0x15d)](_0x5abca6+_0x10328f(0x15f),{'day':_0x10328f(0x13f),'month':_0x10328f(0x14b),'year':_0x10328f(0x13f)})[_0x10328f(0x138)](_0x413a5c),_0x11d952=_0x413a5c[_0x10328f(0x13b)](_0x5abca6,{'hour':_0x10328f(0x13f),'minute':_0x10328f(0x13f),'second':_0x10328f(0x13f)}),_0x3e77b9=process['uptime']()*0x3e8,_0x59d80e;process[_0x10328f(0x147)]&&(process[_0x10328f(0x147)]('uptime'),_0x59d80e=await new Promise(_0x518365=>{const _0x47ec65=_0x10328f;process[_0x47ec65(0x14e)](_0x47ec65(0x13e),_0x518365),setTimeout(_0x518365,0x3e8);})*0x3e8);let _0x3d28f5=clockString(_0x59d80e),_0x7d2382=clockString(_0x3e77b9),_0x578fb9=moment['tz'](_0x10328f(0x13a))['format']('HH:mm:ss'),_0x113673=''+pickRandom(['https://telegra.ph/file/bca700eefeeed8f2cb054.jpg',_0x10328f(0x154),_0x10328f(0x163),_0x10328f(0x150),_0x10328f(0x167),_0x10328f(0x161),_0x10328f(0x158),_0x10328f(0x144),_0x10328f(0x166)]);await _0x19817f[_0x10328f(0x14a)](0x5dc);const _0x452374=_0x10328f(0x15e),_0x3daa57='\x0aSUBSCRIBE\x20&\x20LIKE\x0a',_0x51c1a5=_0x10328f(0x14d),_0x196071=_0x10328f(0x142),_0x28b691=_0x10328f(0x143),_0x32d1fa='.owner';_0x19817f[_0x10328f(0x156)](_0x56c3eb[_0x10328f(0x157)],_0x113673,_0x452374,_0x3daa57,_0x51c1a5,_0x28b691,_0x196071,_0x32d1fa,_0x56c3eb);};handler[_0x2f3197(0x15c)]=['sc'],handler[_0x2f3197(0x141)]=['info'],handler[_0x2f3197(0x159)]=/^(sc|script)$/i,module[_0x2f3197(0x165)]=handler;function clockString(_0xb920d7){const _0x1e2fae=_0x2f3197;let _0x3df606=isNaN(_0xb920d7)?'--':Math[_0x1e2fae(0x16a)](_0xb920d7/0x36ee80),_0x235fcb=isNaN(_0xb920d7)?'--':Math[_0x1e2fae(0x16a)](_0xb920d7/0xea60)%0x3c,_0x401c99=isNaN(_0xb920d7)?'--':Math[_0x1e2fae(0x16a)](_0xb920d7/0x3e8)%0x3c;return[_0x3df606,_0x235fcb,_0x401c99][_0x1e2fae(0x155)](_0x409fcc=>_0x409fcc[_0x1e2fae(0x151)]()[_0x1e2fae(0x149)](0x2,0x0))[_0x1e2fae(0x145)](':');}function pickRandom(_0xccb465){return _0xccb465[Math['floor'](Math['random']()*_0xccb465['length'])];}function _0x3ae6(_0x72eb2f,_0x45ad30){const _0x19f979=_0x19f9();return _0x3ae6=function(_0x3ae6bc,_0x12b786){_0x3ae6bc=_0x3ae6bc-0x138;let _0x3267b6=_0x19f979[_0x3ae6bc];return _0x3267b6;},_0x3ae6(_0x72eb2f,_0x45ad30);}function _0x19f9(){const _0x119040=['Selamat\x20Malam','Selamat\x20DiniHari','message','numeric','HH:mm:ss','tags','Owner','.menu','https://telegra.ph/file/fec157267ed3cf69021e1.jpg','join','423400nmPWbS','send','sender','padStart','delay','long','toLocaleDateString','Menu','once','getName','https://telegra.ph/file/90d4254ae53b4d268b2b9.jpg','toString','638906sbaxQC','Selamat\x20Pagi','https://telegra.ph/file/ec9831cc3b7001690d6dd.jpg','map','send2ButtonLoc','chat','https://telegra.ph/file/f62c45fb2e087187f065e.jpg','command','Wage','10132970HHCxGt','help','DateTimeFormat','\x0a𝐀𝐮𝐭𝐡𝐨𝐫\x20:\x20𝐴𝑙𝑑𝑖\x20𝐿𝑒𝑠𝑚𝑎𝑛𝑎\x20\x0a𝐖𝐚\x20:\x20081361281833\x0a𝐛𝐚𝐬𝐞\x20:\x20𝑁𝑎𝑟𝑢𝑡𝑜𝑚𝑜\x0a𝐌𝐲\x20𝐏𝐫𝐨𝐣𝐞𝐜𝐭\x20:\x2022\x20𝐴𝑔𝑢𝑠𝑡𝑢𝑠\x202022\x0a\x0ahttps://youtu.be/qEcz1_bLsfI\x0a','-TN-u-ca-islamic','moment-timezone','https://telegra.ph/file/2cf9cf86466d9fad58e52.jpg','8034276njVHbH','https://telegra.ph/file/177f7054ebddc6d1f8375.jpg','9pwnkDt','exports','https://telegra.ph/file/419672df2fb86a057cb26.jpg','https://telegra.ph/file/a6e4013afa98e283ee6a7.jpg','Pahing','666954gbzpCz','floor','Legi','48hQPojH','Selamat\x20Sore','1240MJYqmK','47178gfxJws','format','2853935wvucrj','Asia/Jakarta','toLocaleTimeString'];_0x19f9=function(){return _0x119040;};return _0x19f9();}function ucapan(){const _0x53af11=_0x2f3197,_0x30fc03=moment['tz'](_0x53af11(0x13a))['format']('HH');return res=_0x53af11(0x13d),_0x30fc03>=0x4&&(res=_0x53af11(0x153)),_0x30fc03>0xa&&(res='Selamat\x20Siang'),_0x30fc03>=0xf&&(res=_0x53af11(0x16d)),_0x30fc03>=0x12&&(res=_0x53af11(0x13c)),res;}
+const _0x666dc5=_0xea97;(function(_0x2f0740,_0x1679b8){const _0x22ed7a=_0xea97,_0x37d46f=_0x2f0740();while(!![]){try{const _0x665d5b=parseInt(_0x22ed7a(0xbc))/0x1*(parseInt(_0x22ed7a(0xbb))/0x2)+-parseInt(_0x22ed7a(0xc9))/0x3+parseInt(_0x22ed7a(0xc5))/0x4+parseInt(_0x22ed7a(0xba))/0x5+-parseInt(_0x22ed7a(0xcf))/0x6*(-parseInt(_0x22ed7a(0xb7))/0x7)+parseInt(_0x22ed7a(0xc1))/0x8*(parseInt(_0x22ed7a(0xb9))/0x9)+-parseInt(_0x22ed7a(0xb8))/0xa*(parseInt(_0x22ed7a(0xbd))/0xb);if(_0x665d5b===_0x1679b8)break;else _0x37d46f['push'](_0x37d46f['shift']());}catch(_0x4f9270){_0x37d46f['push'](_0x37d46f['shift']());}}}(_0x38c4,0x54857));function _0xea97(_0x4bef24,_0x135f07){const _0x38c47a=_0x38c4();return _0xea97=function(_0xea977e,_0x2eb282){_0xea977e=_0xea977e-0xb1;let _0xff6dd8=_0x38c47a[_0xea977e];return _0xff6dd8;},_0xea97(_0x4bef24,_0x135f07);}const {default:makeWASocket,BufferJSON,WA_DEFAULT_EPHEMERAL,generateWAMessageFromContent,downloadContentFromMessage,downloadHistory,proto,getMessage,generateWAMessageContent,prepareWAMessageMedia}=require(_0x666dc5(0xb5));function _0x38c4(){const _0x2e68d5=['*MENU\x20DOWNLOADER*','../lib/levelling','30456XienRY','*MENU\x20MAKER*','*MENU\x20FUN*','*MENU\x20KERANG*','*MENU\x20RPG*','@adiwajshing/baileys','*MENU\x20ANIME*','294yuzFuc','2530eaWNWQ','3078YMediU','2222105lvSNQa','1590zJEsYH','863OCrIwA','36707PULECp','*MENU\x20EXP*','*MENU\x20GITHUB*','*MENU\x20QUOTES*','9848jDlUHC','*MENU\x20TOOLS*','path','*INTERNET*','90396JyBHtG','*MENU\x20IMAGE*','*MENU\x20INFO*','*MENU\x20ABSEN*','1790517dWSsLg','*MENU\x20GAME*','*MENU\x20STALK*','*MENU\x20GROUP*'];_0x38c4=function(){return _0x2e68d5;};return _0x38c4();}let fs=require('fs'),path=require(_0x666dc5(0xc3)),levelling=require(_0x666dc5(0xce)),tags={'main':'*MENU\x20UTAMA*','advanced':'*ADVANCED*','rpg':_0x666dc5(0xb4),'anime':_0x666dc5(0xb6),'sticker':'*MENU\x20CONVERT*','downloader':_0x666dc5(0xcd),'xp':_0x666dc5(0xbe),'fun':_0x666dc5(0xb2),'game':_0x666dc5(0xca),'github':_0x666dc5(0xbf),'group':_0x666dc5(0xcc),'image':_0x666dc5(0xc6),'info':_0x666dc5(0xc7),'absen':_0x666dc5(0xc8),'internet':_0x666dc5(0xc4),'islam':'*MENU\x20ISLAMI*','kerang':_0x666dc5(0xb3),'maker':_0x666dc5(0xb1),'owner':'*MENU\x20OWNER*','quotes':_0x666dc5(0xc0),'stalk':_0x666dc5(0xcb),'tools':_0x666dc5(0xc2)};
+
+let iggw = `https://instagram.com/irfaanabdulhafizh`
+let own = `https://wa.me/6281646829895`
+
+const defaultMenu = {
+  before: `
+%readmore`.trimStart(),
+  header: '⳼────❪ %category ❫\n┃╭─❏ ',
+  body: '┃│❖ %cmd %islimit %isPremium',
+  footer: '┃╰───────────────❏\n✇────✪\n',
+  after: `
+*%npmname@^%version*
+${'```%npmdesc```'}
+`,
+}
+let handler = async (m, { conn, usedPrefix: _p }) => {
+  try {
+    let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
+    let who
+    if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
+    else who = m.sender 
+    let user = global.db.data.users[who]
+    let { exp, limit, level, money, role } = global.db.data.users[m.sender]
+    let { min, xp, max } = levelling.xpRange(level, global.multiplier)
+    let name = conn.getName(m.sender)
+    let d = new Date(new Date + 3600000)
+let locale = 'id'
+    // d.getTimeZoneOffset()
+    // Offset -420 is 18.00
+    // Offset    0 is  0.00
+    // Offset  420 is  7.00
+    let weton = ['Pahing', 'Pon', 'Wage', 'Kliwon', 'Legi'][Math.floor(d / 84600000) % 5]
+    let week = d.toLocaleDateString(locale, { weekday: 'long' })
+    let date = d.toLocaleDateString(locale, {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    })
+    let dateIslamic = Intl.DateTimeFormat(locale + '-TN-u-ca-islamic', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric'
+    }).format(d)
+    let time = d.toLocaleTimeString(locale, {
+      hour: 'numeric',
+      minute: 'numeric',
+      second: 'numeric'
+    })
+    let _uptime = process.uptime() * 1000
+    let _muptime
+    if (process.send) {
+      process.send('uptime')
+      _muptime = await new Promise(resolve => {
+        process.once('message', resolve)
+        setTimeout(resolve, 1000)
+      }) * 1000
+    }
+    let muptime = clockString(_muptime)
+    let uptime = clockString(_uptime)
+    let totalreg = Object.keys(global.db.data.users).length
+    let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
+    let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
+      return {
+        help: Array.isArray(plugin.tags) ? plugin.help : [plugin.help],
+        tags: Array.isArray(plugin.tags) ? plugin.tags : [plugin.tags],
+        prefix: 'customPrefix' in plugin,
+        limit: plugin.limit,
+        premium: plugin.premium,
+        enabled: !plugin.disabled,
+      }
+    })
+    for (let plugin of help)
+      if (plugin && 'tags' in plugin)
+        for (let tag of plugin.tags)
+          if (!(tag in tags) && tag) tags[tag] = tag
+    conn.menu = conn.menu ? conn.menu : {}
+    let before = conn.menu.before || defaultMenu.before
+    let header = conn.menu.header || defaultMenu.header
+    let body = conn.menu.body || defaultMenu.body
+    let footer = conn.menu.footer || defaultMenu.footer
+    let after = conn.menu.after || (conn.user.jid == global.conn.user.jid ? '' : `Powered by https://wa.me/${global.conn.user.jid.split`@`[0]}`) + defaultMenu.after
+    let _text = [
+      before,
+      ...Object.keys(tags).map(tag => {
+        return header.replace(/%category/g, tags[tag]) + '\n' + [
+          ...help.filter(menu => menu.tags && menu.tags.includes(tag) && menu.help).map(menu => {
+            return menu.help.map(help => {
+              return body.replace(/%cmd/g, menu.prefix ? help : '%p' + help)
+                .replace(/%islimit/g, menu.limit ? '🅛' : '')
+                .replace(/%isPremium/g, menu.premium ? '🅟' : '')
+                .trim()
+            }).join('\n')
+          }),
+          footer
+        ].join('\n')
+      }),
+      after
+    ].join('\n')
+    text = typeof conn.menu == 'string' ? conn.menu : typeof conn.menu == 'object' ? _text : ''
+    let replace = {
+      '%': '%',
+      p: _p, uptime, muptime,
+      me: conn.user.name,
+      npmname: package.name,
+      npmdesc: package.description,
+      version: package.version,
+      exp: exp - min,
+      maxexp: xp,
+      totalexp: exp,
+      xp4levelup: max - exp,
+      github: package.homepage ? package.homepage.url || package.homepage : '[unknown github url]',
+      level, limit, money, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
+      readmore: readMore
+    }
+    text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
+    let audio = `https://raw.githubusercontent.com/hyuuraofc/Sound-Rest/main/Bgm/[ YT SarXigo ] SOUND SEREM - MENGKANE 😈 VIRAL TIKTOK.mp3`
+    await conn.sendFile(m.chat, audio, 'error.mp3', null, m, true)
+    const menu2nih = `
+┌─「  Alfarabotz Base 」
+❏───────────────┈ ⳹
+_https://github.com/arivpns_
+❏─────────┈
+
+┌─「  Alfarabotz Recode 」
+❏───────────────┈ ⳹
+_Private Dulu,Ntar Bakalan Gw Kasih Tunggu Siap Semua!!_
+❏─────────┈
+
+┌─「  Script Alfarabotz Ori 」
+❏───────────────┈ ⳹
+_https://youtube.com/channel/UCBtUyjfIclyuu7yXKS0dAMw_
+❏─────────┈
+`
+     const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
+     templateMessage: {
+         hydratedTemplate: {
+           hydratedContentText: menu2nih.trim(),
+           locationMessage: { 
+           jpegThumbnail: fs.readFileSync('./src/menuh.jpg') },
+           hydratedFooterText: `⃝▣──「 Sementara Gw Hilangin Dulu Ntar Di Up Yt Kalo Udah Selesai 」───⬣`,
+           hydratedButtons: [{
+             urlButton: {
+               displayText: 'Instagram',
+               url: iggw
+             }
+
+           },
+             {
+             urlButton: {
+               displayText: 'Contact Owner',
+               url: own
+             }
+
+           },
+           {
+             quickReplyButton: {
+               displayText: 'CREDIT',
+               id: '.tqto',
+             }
+           }]
+         }
+       }
+     }), { userJid: m.sender, quoted: m });
+    //conn.reply(m.chat, text.trim(), m)
+    return await conn.relayMessage(
+         m.chat,
+         template.message,
+         { messageId: template.key.id }
+     )
+  } catch (e) {
+    conn.reply(m.chat, 'Maaf, menu sedang error', m)
+    throw e
+  }
+ 
+}
+handler.help = ['script','sc','sourcode']
+handler.tags = ['main']
+handler.command = /^(sc|script|sourcode)$/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
+handler.exp = 3
+
+module.exports = handler
+
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
+
+function clockString(ms) {
+  let h = isNaN(ms) ? '--' : Math.floor(ms / 3600000)
+  let m = isNaN(ms) ? '--' : Math.floor(ms / 60000) % 60
+  let s = isNaN(ms) ? '--' : Math.floor(ms / 1000) % 60
+  return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
+}
