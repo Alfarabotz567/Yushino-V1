@@ -39,7 +39,7 @@ let bcbg = `${pickRandom(['https://telegra.ph/file/bca700eefeeed8f2cb054.jpg', '
        await conn.delay(1500)
 const anu = `${ucapan()} ${name}`
 const footer = `
-𝙷𝚊𝚕𝚘 ${name} 𝚂𝚊𝚢𝚊 Yushino Botz Multi Device,𝚂𝚊𝚢𝚊 𝙳𝚒 𝙱𝚞𝚊𝚝 𝙾𝚕𝚎𝚑 𝙰𝚕𝚍𝚒,𝙿𝚎𝚖𝚋𝚞𝚊𝚝𝚊𝚗 𝙿𝚛𝚘𝚓𝚎𝚌𝚝 𝙱𝚘𝚝 𝙸𝚗𝚒 𝙼𝚞𝚕𝚊𝚒 𝙳𝚊𝚛𝚒 𝚃𝚊𝚗𝚐𝚐𝚊𝚕 22 𝙰𝚐𝚞𝚜𝚝𝚞𝚜 2022,𝚃𝚎𝚛𝚒𝚖𝚊𝚑 𝙺𝚊𝚜𝚒𝚑 𝚈𝚊𝚗𝚐 𝚃𝚎𝚕𝚊𝚑 𝙼𝚎𝚖𝚋𝚊𝚗𝚝𝚞 𝚂𝚊𝚢𝚊 𝚂𝚎𝚙𝚎𝚗𝚞𝚑 𝙷𝚊𝚝𝚒 𝙳𝚊𝚕𝚊𝚖 𝙼𝚎𝚖𝚋𝚞𝚊𝚝 𝙿𝚛𝚘𝚓𝚎𝚌𝚝 𝚂𝚌𝚛𝚒𝚙𝚝 𝙸𝚗𝚒\n
+𝙷𝚊𝚕𝚘 ${name} 𝚂𝚊𝚢𝚊 Alfarabotz Multi Device,𝚂𝚊𝚢𝚊 𝙳𝚒 𝙱𝚞𝚊𝚝 𝙾𝚕𝚎𝚑 Irfaan Official,𝙿𝚎𝚖𝚋𝚞𝚊𝚝𝚊𝚗 𝙿𝚛𝚘𝚓𝚎𝚌𝚝 𝙱𝚘𝚝 𝙸𝚗𝚒 𝙼𝚞𝚕𝚊𝚒 𝙳𝚊𝚛𝚒 𝚃𝚊𝚗𝚐𝚐𝚊𝚕 22 𝙰𝚐𝚞𝚜𝚝𝚞𝚜 2022,𝚃𝚎𝚛𝚒𝚖𝚊 𝙺𝚊𝚜𝚒𝚑 𝚈𝚊𝚗𝚐 𝚃𝚎𝚕𝚊𝚑 𝙼𝚎𝚖𝚋𝚊𝚗𝚝𝚞 𝚂𝚊𝚢𝚊 𝚂𝚎𝚙𝚎𝚗𝚞𝚑 𝙷𝚊𝚝𝚒 𝙳𝚊𝚕𝚊𝚖 𝙼𝚎𝚖𝚋𝚞𝚊𝚝 𝙿𝚛𝚘𝚓𝚎𝚌𝚝 𝚂𝚌𝚛𝚒𝚙𝚝 𝙸𝚗𝚒\n
 ⫰⫯⫰ 𝐃𝐚𝐭𝐞 𝐈𝐬𝐥𝐚𝐦 : ${dateIslamic}
 ⫰⫯⫰ 𝐃𝐚𝐭𝐞 : ${date}
 ⫰⫯⫰ 𝐔𝐩𝐭𝐢𝐦𝐞 : ${uptime}
