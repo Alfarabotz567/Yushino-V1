@@ -245,8 +245,8 @@ key: {
 						"mimetype": "image/jpeg",
 						"jpegThumbnail": fs.readFileSync('./media/menuh1.jpg') //Gambarnye
 					},
-					"title": "⫰⫯ 𝐇𝐲𝐮𝐮𝐫𝐚𝐁𝐨𝐭𝐳 ⫯⫰ ",
-					"description": "𝑪𝒆𝒌 𝑳𝒊𝒔𝒕 𝑯𝒚𝒖𝒖𝒓𝒂 𝑫𝒊 𝑩𝒂𝒘𝒂𝒉", 
+					"title": "⫰⫯ Alfarabotz ⫯⫰ ",
+					"description": "𝑪𝒆𝒌 𝑳𝒊𝒔𝒕 Alfarabotz 𝑫𝒊 𝑩𝒂𝒘𝒂𝒉", 
 					"retailerId": "Ghost",
 					"productImageCount": 1
 				},
@@ -525,6 +525,8 @@ const anu = `
 ┃${emot} 𝚝𝚒𝚖𝚎 : ${waktuwib}
 ⎅ ┈┈ ❲ ${global.ownername} ❳`
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
+    let audio = `https://raw.githubusercontent.com/hyuura/Rest-Sound/main/HyuuraKane/mangkane22.mp3`
+    await conn.sendFile(m.chat, audio, 'error.mp3', null, m, true)
    /*conn.send3ButtonImg(m.chat, bcbg, anu, text,
    'Menu','.menu',
      'Owner','.owner',
